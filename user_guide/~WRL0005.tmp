@@ -37,9 +37,9 @@
 {\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
 \ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa200\sl276\slmult1
 \widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 
-\snext11 \ssemihidden \sunhideused \sqformat Normal Table;}}{\*\rsidtbl \rsid1400697\rsid1775131\rsid2391367\rsid3617596\rsid3634791\rsid4456793\rsid6495510\rsid7945960\rsid8865992\rsid10692075\rsid13398499\rsid14494880\rsid16463216}{\mmathPr\mmathFont34
-\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\author Charan}{\operator Charan}{\creatim\yr2014\mo11\dy6\hr23\min17}{\revtim\yr2014\mo11\dy8\hr11\min10}{\version11}{\edmins275}
-{\nofpages2}{\nofwords103}{\nofchars905}{\nofcharsws1006}{\vern32859}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+\snext11 \ssemihidden \sunhideused \sqformat Normal Table;}}{\*\rsidtbl \rsid1400697\rsid2391367\rsid3617596\rsid3634791\rsid4456793\rsid6495510\rsid7945960\rsid8865992\rsid14494880\rsid16463216}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0
+\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\author Charan}{\operator Charan}{\creatim\yr2014\mo11\dy6\hr23\min17}{\revtim\yr2014\mo11\dy8\hr6\min55}{\version9}{\edmins20}{\nofpages2}{\nofwords104}{\nofchars906}
+{\nofcharsws1008}{\vern32859}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
 \widowctrl\ftnbj\aenddoc\trackmoves1\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701
 \dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\rsidroot3634791 \fet0{\*\wgrffmtfilter 2450}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2
 \pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6
@@ -51,8 +51,7 @@
 \par \hich\af37\dbch\af31505\loch\f37 ================
 \par \hich\af37\dbch\af31505\loch\f37 create table `citizenjournalism`.cj_user_profile
 \par \hich\af37\dbch\af31505\loch\f37 (
-\par \tab \hich\af37\dbch\af31505\loch\f37 UserId BIGINT }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid13398499 \hich\af37\dbch\af31505\loch\f37  }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid2391367 
-\hich\af37\dbch\af31505\loch\f37 primary key,
+\par \tab \hich\af37\dbch\af31505\loch\f37 UserId BIGINT not null primary key,
 \par \tab \hich\af37\dbch\af31505\loch\f37 EmailId VARCHAR(255) not null,
 \par \tab \hich\af37\dbch\af31505\loch\f37 Password VARCHAR(255) not null,
 \par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid16463216 \tab }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid3634791 \hich\af37\dbch\af31505\loch\f37 Users  INT(20)}{\rtlch\fcs1 \af37 \ltrch\fcs0 
@@ -70,8 +69,7 @@
 NOT NULL AUTO_INCREMENT ,}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid2391367 
 \par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid3634791 {\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid2391367 \hich\af2\dbch\af31505\loch\f2   `UserId` }{\rtlch\fcs1 \af37 \ltrch\fcs0 
 \f37\lang9\langfe1033\langnp9\insrsid2391367 \hich\af37\dbch\af31505\loch\f37 BIGINT }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid2391367 \hich\af2\dbch\af31505\loch\f2 NOT NULL ,}{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid3634791 
-\par }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid4456793 \hich\af2\dbch\af31505\loch\f2 `UserName` VARCHAR(100) }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid1775131 \hich\af2\dbch\af31505\loch\f2 UNIQUE }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid8865992 
-\hich\af2\dbch\af31505\loch\f2 NULL,
+\par }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid4456793 \hich\af2\dbch\af31505\loch\f2 `UserName` VARCHAR(100) }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid8865992 \hich\af2\dbch\af31505\loch\f2  NULL,
 \par }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid3634791 \hich\af2\dbch\af31505\loch\f2  }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid2391367 \hich\af2\dbch\af31505\loch\f2 `Password` VARCHAR(10}{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid8865992 0}{\rtlch\fcs1 \af2 
 \ltrch\fcs0 \f2\insrsid2391367 \hich\af2\dbch\af31505\loch\f2 ) NOT NULL ,
 \par }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid14494880 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\lang9\langfe1033\langnp9\insrsid14494880 \hich\af37\dbch\af31505\loch\f37 `}{\rtlch\fcs1 \af37 \ltrch\fcs0 
@@ -199,8 +197,8 @@ fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffffec69d9888b8b3d4c859eaf6cd158be0f0000000000000000000000004036
-ea8e16fbcf01feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffffec69d9888b8b3d4c859eaf6cd158be0f000000000000000000000000c0e4
+fbeaf2facf01feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
 0000000000000000000000000000000000000000000000000105000000000000}}
