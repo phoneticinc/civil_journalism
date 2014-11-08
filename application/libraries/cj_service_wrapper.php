@@ -11,7 +11,7 @@ class Cj_service_wrapper {
 			if(count($arrSuperAdminDetailsResult) != 0){
 				for($i=0;$i<count($arrSuperAdminDetailsResult);$i++){
 					if($arrSuperAdminDetailsResult[$i]['UserId'] == $uid && $arrSuperAdminDetailsResult[$i]['Password'] == $pwd){
-						return array('status' => 1);
+						return array('status' => 1, 'msg'=> '');
 					}
 					else
 					{
@@ -40,7 +40,7 @@ class Cj_service_wrapper {
 			//$arrReporterDetailsResult = Db_factory::getInstance()->query($insertReporterQuery, array($data['uname'], $data['password']));
 			if($arrSuperAdminDetailsResult != -1)
 			{
-				return array('status' => 1);
+				return array('status' => 1, 'msg'=> '');
 			}
 			else{
 				return array('status' => 0, 'msg'=> 'Please Check The Data');
@@ -63,7 +63,7 @@ class Cj_service_wrapper {
 			$arrSuperAdminDetailsResult = Db_factory::getInstance()->query($deleteSuperAdminQuery, array($uname));
 			if($arrSuperAdminDetailsResult != -1 && $arrReporterDetailsResult != -1)
 			{
-				return array('status' => 1);
+				return array('status' => 1, 'msg'=> '');
 			}
 			else{
 				return array('status' => 0, 'msg'=> 'Please Check The Data');
@@ -125,7 +125,7 @@ class Cj_service_wrapper {
 			if(count($arrReporterDetailsResult) != 0){
 				for($i=0;$i<count($arrReporterDetailsResult);$i++){
 					if($arrReporterDetailsResult[$i]['UserId'] == $uid && $arrReporterDetailsResult[$i]['Password'] == $pwd){
-						return array('status' => 1);
+						return array('status' => 1, 'msg'=> '');
 					}
 					else
 					{
@@ -214,7 +214,7 @@ class Cj_service_wrapper {
 				$arrReporterDetailsResult = Db_factory::getInstance()->query($insertReporterQuery, array($uid, $uname, $pwd, $device));
 				if($arrReporterDetailsResult != -1)
 				{
-					return array('status' => 1);
+					return array('status' => 1, 'msg'=> '');
 				}
 				else{
 					return array('status' => 0, 'msg'=> 'Please Check The Data');
@@ -250,7 +250,7 @@ class Cj_service_wrapper {
 				$arrReporterDetailsResult = Db_factory::getInstance()->query($deleteReporterQuery, array($uname));
 				if($arrReporterDetailsResult != -1)
 				{
-					return array('status' => 1);
+					return array('status' => 1, 'msg'=> '');
 				}
 				else{
 					return array('status' => 0, 'msg'=> 'Please Check The Data');
@@ -286,7 +286,7 @@ class Cj_service_wrapper {
 				$arrReporterDetailsResult = Db_factory::getInstance()->query($deleteReporterQuery, array($pwd, $uname));
 				if($arrReporterDetailsResult != -1)
 				{
-					return array('status' => 1);
+					return array('status' => 1, 'msg'=> '');
 				}
 				else{
 					return array('status' => 0, 'msg'=> 'Please Check The Data');
@@ -323,7 +323,7 @@ class Cj_service_wrapper {
 				$arrReporterDetailsResult = Db_factory::getInstance()->query($deleteReporterQuery, array($device, $uname));
 				if($arrReporterDetailsResult != -1)
 				{
-					return array('status' => 1);
+					return array('status' => 1, 'msg'=> '');
 				}
 				else{
 					return array('status' => 0, 'msg'=> 'Please Check The Data');
