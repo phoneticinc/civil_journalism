@@ -357,7 +357,7 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
-$config['DEFAULT_HOSTNAME'] = 'localhost';
+$config['DEFAULT_HOSTNAME'] = 'win-ln41gdp1351';
 $config['DEFAULT_USERNAME'] = 'root';
 $config['DEFAULT_PASSWORD'] = 'root';
 $config['LOG_PATH'] = APPPATH.'/logs/';
