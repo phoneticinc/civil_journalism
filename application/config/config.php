@@ -359,7 +359,7 @@ $config['proxy_ips'] = '';
 
 $config['DEFAULT_HOSTNAME'] = 'localhost';
 $config['DEFAULT_USERNAME'] = 'root';
-$config['DEFAULT_PASSWORD'] = '';
+$config['DEFAULT_PASSWORD'] = 'root';
 $config['LOG_PATH'] = APPPATH.'/logs/';
 
 /* End of file config.php */
