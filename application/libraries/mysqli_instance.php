@@ -28,7 +28,6 @@ class Mysqli_instance implements Db_instance
 				$this->strHost=$ci->config->item('DEFAULT_HOSTNAME');
 				$this->strUser=$ci->config->item('DEFAULT_USERNAME');
 				$this->strPwd=$ci->config->item('DEFAULT_PASSWORD');
-				echo 	$this->strHost." ".$this->strUser." ".$this->strPwd;
 				break;
 			}
 		}
